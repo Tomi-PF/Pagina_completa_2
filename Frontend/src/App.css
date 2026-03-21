@@ -3,3 +3,9 @@
     background-color: rgb(207, 207, 207);
     min-height: 100vh;
 }
+
+/* Estilo de la Navbar */
+.icono-header {
+    margin-right: 10px;
+    font-size: 28px;
+}
