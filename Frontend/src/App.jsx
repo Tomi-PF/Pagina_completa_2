@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 /* Importación de los componentes */
 import Header from "./components/Header";
+import Footer from "./components/Footer"
 
 /* Importación de las secciones */
 import Inicio from "./pages/Inicio"
@@ -28,6 +29,7 @@ export default function App() {
                     <Route path="/registrarse" to={Registrarse}/>
                 </Routes>
             </Container>
+            <Footer/>
         </Router>
     )
 }
