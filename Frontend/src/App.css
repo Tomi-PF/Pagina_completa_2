@@ -9,3 +9,17 @@
     margin-right: 10px;
     font-size: 28px;
 }
+
+/* Estilos del footer */
+.footer {
+    position: sticky;
+    top: 100vh;
+}
+
+.icono-whatsapp, .icono-instagram, .icono-x, .icono-threads, .icono-facebook {
+    font-size: 28px;
+}
+
+.icono-whatsapp {
+    margin-right: 20px;
+}
