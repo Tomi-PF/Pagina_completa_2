@@ -22,11 +22,11 @@ export default function App() {
             <Header/>
             <Container>
                 <Routes>
-                    <Route path="/" to={Inicio}/>
-                    <Route path="/alojamientos" to={Alojamientos}/>
-                    <Route path="/reservas" to={Reservas}/>
-                    <Route path="/iniciar_sesion" to={Iniciar_sesion}/>
-                    <Route path="/registrarse" to={Registrarse}/>
+                    <Route path="/" element={<Inicio/>}/>
+                    <Route path="/alojamientos" element={<Alojamientos/>}/>
+                    <Route path="/reservas" element={<Reservas/>}/>
+                    <Route path="/iniciar_sesion" element={<Iniciar_sesion/>}/>
+                    <Route path="/registrarse" element={<Registrarse/>}/>
                 </Routes>
             </Container>
             <Footer/>
