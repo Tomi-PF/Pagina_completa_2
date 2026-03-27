@@ -14,6 +14,7 @@ import Alojamientos from "./pages/Alojamientos"
 import Reservas from "./pages/Reservas"
 import Iniciar_sesion from "./pages/Iniciar_sesion"
 import Registrarse from "./pages/Registrarse"
+import Hoteles from "./pages/Hoteles"
 
 export default function App() {
 
@@ -27,6 +28,7 @@ export default function App() {
                     <Route path="/reservas" element={<Reservas/>}/>
                     <Route path="/iniciar_sesion" element={<Iniciar_sesion/>}/>
                     <Route path="/registrarse" element={<Registrarse/>}/>
+                    <Route path="/hoteles" element={<Hoteles/>}/>
                 </Routes>
             </Container>
             <Footer/>
