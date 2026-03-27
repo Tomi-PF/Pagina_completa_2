@@ -135,7 +135,7 @@ button.next {
 .card {
     width: 18em;
     margin-top: 10px;
-    min-height: 610px;
+    min-height: 500px;
     min-width: 265px;
 }
 
