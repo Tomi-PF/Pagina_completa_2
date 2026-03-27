@@ -112,3 +112,47 @@ button.prev {
 button.next {
     right: 10px;
 }
+
+/* Estilo del contenido de la sección de Alojamientos */
+.contenido {
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+/* Estilo de las cards y del contenedor en donde se encuentran */
+.ciudades-container, .hoteles-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+.ciudades-container > div, .hoteles-container > div {
+    flex: 1 1 200px;
+}
+
+.card {
+    width: 18em;
+    margin-top: 10px;
+    min-height: 610px;
+    min-width: 265px;
+}
+
+.card-imagen {
+    display: flex;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+}
+
+.card-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
